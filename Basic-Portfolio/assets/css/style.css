@@ -8,23 +8,28 @@ h1, h2, h3, h4, h5, h6 {
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
 /* For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
 /* Regular font color (used for paragraphs and all text besides the headings): #777777 */
-.mainArea {
+.mainSection {
   color: #777777;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   position: relative;
   display: block;
+  background-color: white;
   width: 960px;
   margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 40px;
+  height: fit-content;
 }
 
 
 .mainAndSides {
-  height: 100%;
   display:flex;
+  height: -webkit-fill-available;
   align-self: auto;
   background-image: url(../images/prism.png);
-
 }
+
 header {
   top: 0;
   height: 110px;
@@ -66,15 +71,14 @@ footer {
   text-align: center;
   font-size: 12px;
   color: white;
-  padding-bottom: 8px;
+  padding-bottom: 8px;  
+  overflow: hidden;
 }
 
 body {
   margin:0px;
 }
-p {
-    background-color: #777777;
-}
+
 
 #name {
   background: #4aaaa5;
@@ -90,6 +94,8 @@ p {
 #profilePic {
   float: left;
   height: 200px;
+  margin: 10px;
+  margin-left: 0px;
 }
 
 .menulinks {
@@ -106,6 +112,11 @@ p {
   opacity: 0.2;
   margin-top: 38px;
 }
+.horizontalLine{
+  border-top: 1px solid #777777;  
+  width: auto;
+  margin: 5px;
+}
 .clearFloats{
   clear: both;
 }
@@ -116,7 +127,18 @@ h1 {
     border-color: #cccccc;
 }
 
+.wide {
+  width: 100%;
+  margin: 20px;
+  margin-left: 0px;
+}
 
+#msgEntry {
+  width: 100%;
+  height: 400px;
+  margin: 20px;
+  margin-left: 0px;
+}
 
 /* Main content background color: #ffffff */
 /* Main content border color: #dddddd */
@@ -146,76 +168,22 @@ a:active {
     background-color: #666666;
 }
 
-
-/*
-<body>
-  <div class="content">
-    content
-  </div>
-  <footer class="footer"></footer>
-</body>
-
-html, body {
-  height: 100%;
+.imgButtonPair {
+  margin: 20px;
+  margin-bottom: 60px;
 }
-body {
+.imgButtonStyle {
+  background: #4aaaa5;
+  color: white;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  bottom: 60px;
+  margin-bottom: -60px;
+}
+.imageSection {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-.content {
-  flex: 1 0 auto;
-}
-.footer {
-  flex-shrink: 0;
-}
-*/
-
-/*
-Bonus
-
-Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past 
-the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page:
-
-
-Try to code the footer in a way that it will always remain at the bottom of the page, no matter how short the content is. A sticky footer tutorial can be found here.
-Give the Footer the following CSS:
-border-top: 8px solid #4aaaa5;
-
-
-
-
-
-Helpful Hints
-
-
-For help with Git and GitHub, be sure to consult the GitHub Supplemental Guide sent to you in class.
-Don't forget to look into these concepts: float, padding, margin, display, overflow, clear and text-align.
-This will be a tough assignment, but towards the end of the course, you'll look back to this exercise and realize just how much you've grown as a developer. Stay positive! 
-You've got this!
-
-
-
-Reminder: Submission on BCS
-
-
-Please submit the link to the Github Repository!
-
-
-
-
-
-Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to 
-be completed.
-
-
-
-
-One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you!
- If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-Good Luck!
-*/
