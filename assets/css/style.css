@@ -173,6 +173,8 @@ a:active {
   margin-bottom: 60px;
 }
 .imgButtonStyle {
+  display:block;
+  text-decoration: none;
   background: #4aaaa5;
   color: white;
   position: relative;
