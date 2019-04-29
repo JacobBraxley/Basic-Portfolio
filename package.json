@@ -1,0 +1,22 @@
+{
+  "name": "jacobsportfolio",
+  "version": "1.0.2",
+  "description": "a place to find my class projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobBraxley/Basic-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jacob Braxley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobBraxley/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/JacobBraxley/Basic-Portfolio#readme"
+}
