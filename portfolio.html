@@ -5,53 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 
-<body class="content">
-    <header>
-        <div class="headerContent">
-            <div id="name">Jacob Braxley</div>
-            <a class="menulinks" href="index.html">About</a>
-            <div class="vertLine"></div>
-            <a class="menulinks" href="portfolio.html">Portfolio</a>
-            <div class="vertLine"></div>
-            <a class="menulinks" href="contact.html">Contact</a>
-        </div>
-    </header>
-    <div class="clearFloats"></div>
+<body>
 
-    <div class="mainAndSides">
-        <div class="mainSection">
-            <h1>Portfolio</h1>
-            <div class="horizontalLine"></div>
-            <div class="imageSection">
-                <div class="imgBannerPair"><img src="assets/images/robot.png" alt="Hangman Game">
-                    <a class="bannerStyle" href="https://jacobbraxley.github.io/Word-Guess-Game/">Overlords</a>
-                </div>
-                <div class="imgBannerPair"><img src="assets/images/rey.png" alt="Star Wars Game">
-                    <a class="bannerStyle" href="https://jacobbraxley.github.io/unit-4-game/">Star Wars</a>
-                </div>
-                <div class="imgBannerPair"><img src="assets/images/3.jpg" alt="Trivia Game">
-                    <a class="bannerStyle" href="https://jacobbraxley.github.io/TriviaGame/">Trivia</a>
-                </div>
-                <div class="imgBannerPair"><img src="assets/images/bugs.png" alt="Looney Tunes">
-                    <a class="bannerStyle" href="https://jacobbraxley.github.io/GifTastic/">LooneyGif</a>
-                </div>
-                <div class="imgBannerPair"><img src="assets/images/coins.jpg" alt="Budget">
-                    <a class="bannerStyle" href="https://jacobbraxley.github.io/TaxBars/">Budget</a>
+
+    <nav>
+        <div class="nav-wrapper grey lighten-1">
+            <a href="index.html" class="brand-logo center">Jacob Braxley</a>
+            <a href="#" data-target="mobileMenu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="btn" href="index.html">About</a></li>
+                <li><a class="btn" href="portfolio.html">Portfolio</a></li>
+                <li><a class="btn" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobileMenu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <main class="indigo lighten-2">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/robot.png" alt="Hangman Game">
+                    </div>
+
+                    <div class="card-content"><a href="https://jacobbraxley.github.io/Word-Guess-Game/">Overlords</a>
+                    </div>
                 </div>
             </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/rey.png" alt="Star Wars Game">
+                    </div>
+                    <div class="card-content"><a href="https://jacobbraxley.github.io/unit-4-game/">Star Wars</a></div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/3.jpg" alt="Trivia Game">
+                    </div>
+                    <div class="card-content"><a href="https://jacobbraxley.github.io/TriviaGame/">Trivia</a></div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/bugs.png" alt="Looney Tunes">
+                    </div>
+                    <div class="card-content"><a href="https://jacobbraxley.github.io/GifTastic/">LooneyGif</a></div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/coins.jpg" alt="Budget">
+                    </div>
+                    <div class="card-content"><a href="https://jacobbraxley.github.io/TaxBars/">Budget</a></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class="page-footer grey lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="center">© 2019 Copyright</div>
+            </div>
+
         </div>
     </div>
 
-    <footer>
-        <div class="fDivider"></div>
-        Copyright &copy;
-    </footer>
-
-
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
