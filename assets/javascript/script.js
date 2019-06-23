@@ -1,4 +1,4 @@
 //Exciting javascript!
-$(document).ready(function () {
+$(document).ready(() => {
     $('.sidenav').sidenav();
 });
